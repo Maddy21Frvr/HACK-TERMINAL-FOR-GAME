@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S.A.T.U.R.N. Tactical Hacking Terminal</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: black; color: lime; text-align: center; }
+        .button { background-color: darkred; color: white; padding: 10px; margin: 10px; border: none; cursor: pointer; }
+    </style>
+    <script>
+        function sendHack(hackType) {
+            alert("Hack Sent: " + hackType);
+            // In a real version, this would send data to a server
+        }
+    </script>
+</head>
+<body>
+    <h1>🛑 S.A.T.U.R.N. Hacking Interface 🛑</h1>
+    <p>Choose a hacking command (Limited Uses Available):</p>
+    <button class="button" onclick="sendHack('Emergency Broadcast')">🔴 Emergency Broadcast (3 Uses Left)</button>
+    <button class="button" onclick="sendHack('Loop Surveillance Feed')">🟡 Loop Surveillance Feed (2 Uses Left)</button>
+    <button class="button" onclick="sendHack('Fake Alarm')">🔵 Fake Alarm (1 Use Left)</button>
+</body>
+</html>
